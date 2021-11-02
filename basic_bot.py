@@ -32,4 +32,4 @@ async def on_message(message):
             await message.channel.send(f"{message.author.mention} 他逼得我說「{tmp[1]}」")
 
 
-client.run('OTA0OTg4NDkyMDM0MTAxMjU4.YYDiNg.OPiz1ZRd5bU3DNsHeTFNKo4KfT0')  # Write your Token here
+client.run('your token')  # Write your Token here
