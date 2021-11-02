@@ -17,4 +17,4 @@ async def on_message(message):
     if message.content == '我是你爹':
         await message.channel.send('我是你儿子')
 
-client.run('OTA0OTg4NDkyMDM0MTAxMjU4.YYDiNg.QSXcB6VvWNlvHtsxl6Gd-qwPIVg')
+client.run('Your Token')#Write your Token here
