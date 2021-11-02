@@ -10,8 +10,12 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    
+    #Ignore your own information, prevent endless loops
     if message.author == client.user:
         return
+    
+    #Simple auto reply
     if message.content == '嗨':
         await message.channel.send('你好呀')
     if message.content == '我是你爹':
